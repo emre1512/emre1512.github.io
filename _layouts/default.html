@@ -15,8 +15,13 @@
     <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
   </head>
 
-  <body>
-    <div class="wrapper-masthead">
+  <body style="background:#efefef;">
+    <div class="wrapper-masthead"  style="background:#efefef;">
+      
+         <footer class="footer" style="width:100%; background:#66ccff; padding-top: 10px; padding-bottom: 5px;>
+          {% include svg-icons.html %}
+        </footer>
+   
       <div class="container">
         <header class="masthead clearfix">
           <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
@@ -27,8 +32,8 @@
           </div>
 
           <nav>
-            <a href="{{ site.baseurl }}/">Blog</a>
-            <a href="{{ site.baseurl }}/about">About</a>
+            <a style="font-size:24px;" href="{{ site.baseurl }}/">Articles</a>
+            <a style="font-size:24px;" href="{{ site.baseurl }}/about">About</a>
           </nav>
         </header>
       </div>
@@ -38,9 +43,9 @@
       {{ content }}
     </div>
 
-    <div class="wrapper-footer">
+    <div class="wrapper-footer"  style="background:#66ccff;">
       <div class="container">
-        <footer class="footer">
+        <footer class="footer" >
           {% include svg-icons.html %}
         </footer>
       </div>

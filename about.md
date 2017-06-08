@@ -4,12 +4,10 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Hi I'm Emre. I am an Android app/game developer. Here I am sharing my experiences about Android. 
 
-### More Information
+### Contact with me
 
-A place to include any other types of information that you'd like to include about yourself.
-
-### Contact me
-
-[email@domain.com](mailto:email@domain.com)
+<div style="margin-left:0px; left:0px;">
+      {% include svg-icons.html %}
+</div>

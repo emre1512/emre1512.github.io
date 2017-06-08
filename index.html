@@ -3,16 +3,38 @@ layout: default
 ---
 
 <div class="posts">
+
+
   {% for post in site.posts %}
-    <article class="post">
 
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+	<article class="post" style="background: white; border-style: solid; border-width: 1px; border-color:#dddddd;">
+	
+      <div >
+        <a href="{{ site.baseurl }}{{ post.url }}">
+          <img src="{{ post.img }}" style="width:100%;display: block; margin: auto;">
+        </a>       
+      </div>
+      
 
-      <div class="entry">
-        {{ post.excerpt }}
+  		<h1 style="display: block; margin: 40px auto; width: 80%; font-size:34px;"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+
+
+      <div class="entry" style="display: block; margin: -20px auto; width: 80%;">
+        <a style="color:#333;" href="{{ site.baseurl }}{{ post.url }}">
+          {{ post.excerpt }}  
+        </a>                                
       </div>
 
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+      <div style="display: block; margin-left:auto;margin-right:auto; margin-top:50px; width: 80%;">
+
+        <a style="color: #aaa" href=""><u>CONTINUE READING</u></a>
+        
+      </div>
+
     </article>
+
+    </br></br></br>
+
+
   {% endfor %}
 </div>
