@@ -1,1 +1,1 @@
-[Go to my blog](www.emre1512.github.io)
+[Go to my blog](https://emre1512.github.io/)
